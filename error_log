@@ -1,0 +1,125 @@
+[08-Nov-2017 07:26:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getRealOrderId() on null in /home/valuecom/public_html/bpstore/vendor/magento/module-sales/Block/Order/PrintShipment.php:60
+Stack trace:
+#0 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Element/AbstractBlock.php(272): Magento\Sales\Block\Order\PrintShipment->_prepareLayout()
+#1 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Layout/Generator/Block.php(139): Magento\Framework\View\Element\AbstractBlock->setLayout(Object(Magento\Framework\View\Layout\Interceptor))
+#2 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Layout/GeneratorPool.php(80): Magento\Framework\View\Layout\Generator\Block->process(Object(Magento\Framework\View\Layout\Reader\Context), Object(Magento\Framework\View\Layout\Generator\Context))
+#3 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Layout.php(344): Magento\Framework\View\Layout\GeneratorPool->process(Object(Magento\Framework\View\Layout\Reader\Context), Object(Magento\Framewor in /home/valuecom/public_html/bpstore/vendor/magento/module-sales/Block/Order/PrintShipment.php on line 60
+[08-Nov-2017 08:39:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getPickupStore() on null in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php:31
+Stack trace:
+#0 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(72): MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable->execute(Object(Magento\Framework\Event\Observer))
+#1 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(60): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable), Object(Magento\Framework\Event\Observer))
+#2 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker\InvokerDefault->dispatch(Array, Object(Magento\Framework\Event\Observer))
+#3 /home/valuecom/public_html/bpstore/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->d in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php on line 31
+[08-Nov-2017 08:40:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getPickupStore() on null in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php:31
+Stack trace:
+#0 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(72): MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable->execute(Object(Magento\Framework\Event\Observer))
+#1 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(60): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable), Object(Magento\Framework\Event\Observer))
+#2 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker\InvokerDefault->dispatch(Array, Object(Magento\Framework\Event\Observer))
+#3 /home/valuecom/public_html/bpstore/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->d in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php on line 31
+[08-Nov-2017 08:41:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getPickupStore() on null in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php:31
+Stack trace:
+#0 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(72): MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable->execute(Object(Magento\Framework\Event\Observer))
+#1 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(60): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable), Object(Magento\Framework\Event\Observer))
+#2 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker\InvokerDefault->dispatch(Array, Object(Magento\Framework\Event\Observer))
+#3 /home/valuecom/public_html/bpstore/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->d in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php on line 31
+[08-Nov-2017 08:43:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getPickupStore() on null in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php:31
+Stack trace:
+#0 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(72): MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable->execute(Object(Magento\Framework\Event\Observer))
+#1 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(60): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable), Object(Magento\Framework\Event\Observer))
+#2 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker\InvokerDefault->dispatch(Array, Object(Magento\Framework\Event\Observer))
+#3 /home/valuecom/public_html/bpstore/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->d in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php on line 31
+[08-Nov-2017 08:50:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getPickupStore() on null in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php:31
+Stack trace:
+#0 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(72): MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable->execute(Object(Magento\Framework\Event\Observer))
+#1 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(60): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable), Object(Magento\Framework\Event\Observer))
+#2 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker\InvokerDefault->dispatch(Array, Object(Magento\Framework\Event\Observer))
+#3 /home/valuecom/public_html/bpstore/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->d in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php on line 31
+[08-Nov-2017 08:52:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getPickupStore() on null in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php:31
+Stack trace:
+#0 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(72): MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable->execute(Object(Magento\Framework\Event\Observer))
+#1 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(60): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable), Object(Magento\Framework\Event\Observer))
+#2 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker\InvokerDefault->dispatch(Array, Object(Magento\Framework\Event\Observer))
+#3 /home/valuecom/public_html/bpstore/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->d in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php on line 31
+[08-Nov-2017 08:56:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getPickupStore() on null in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php:31
+Stack trace:
+#0 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(72): MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable->execute(Object(Magento\Framework\Event\Observer))
+#1 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(60): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable), Object(Magento\Framework\Event\Observer))
+#2 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker\InvokerDefault->dispatch(Array, Object(Magento\Framework\Event\Observer))
+#3 /home/valuecom/public_html/bpstore/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->d in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php on line 31
+[08-Nov-2017 08:58:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getPickupStore() on null in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php:31
+Stack trace:
+#0 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(72): MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable->execute(Object(Magento\Framework\Event\Observer))
+#1 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(60): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable), Object(Magento\Framework\Event\Observer))
+#2 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker\InvokerDefault->dispatch(Array, Object(Magento\Framework\Event\Observer))
+#3 /home/valuecom/public_html/bpstore/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->d in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php on line 31
+[08-Nov-2017 10:11:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getRealOrderId() on null in /home/valuecom/public_html/bpstore/vendor/magento/module-sales/Block/Order/PrintShipment.php:60
+Stack trace:
+#0 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Element/AbstractBlock.php(272): Magento\Sales\Block\Order\PrintShipment->_prepareLayout()
+#1 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Layout/Generator/Block.php(139): Magento\Framework\View\Element\AbstractBlock->setLayout(Object(Magento\Framework\View\Layout\Interceptor))
+#2 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Layout/GeneratorPool.php(80): Magento\Framework\View\Layout\Generator\Block->process(Object(Magento\Framework\View\Layout\Reader\Context), Object(Magento\Framework\View\Layout\Generator\Context))
+#3 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Layout.php(344): Magento\Framework\View\Layout\GeneratorPool->process(Object(Magento\Framework\View\Layout\Reader\Context), Object(Magento\Framewor in /home/valuecom/public_html/bpstore/vendor/magento/module-sales/Block/Order/PrintShipment.php on line 60
+[08-Nov-2017 10:14:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getPickupStore() on null in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php:31
+Stack trace:
+#0 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(72): MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable->execute(Object(Magento\Framework\Event\Observer))
+#1 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(60): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable), Object(Magento\Framework\Event\Observer))
+#2 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker\InvokerDefault->dispatch(Array, Object(Magento\Framework\Event\Observer))
+#3 /home/valuecom/public_html/bpstore/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->d in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php on line 31
+[08-Nov-2017 10:32:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getPickupStore() on null in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php:23
+Stack trace:
+#0 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(72): MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable->execute(Object(Magento\Framework\Event\Observer))
+#1 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(60): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable), Object(Magento\Framework\Event\Observer))
+#2 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker\InvokerDefault->dispatch(Array, Object(Magento\Framework\Event\Observer))
+#3 /home/valuecom/public_html/bpstore/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->d in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php on line 23
+[08-Nov-2017 10:36:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getPickupStore() on null in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php:23
+Stack trace:
+#0 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(72): MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable->execute(Object(Magento\Framework\Event\Observer))
+#1 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(60): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable), Object(Magento\Framework\Event\Observer))
+#2 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker\InvokerDefault->dispatch(Array, Object(Magento\Framework\Event\Observer))
+#3 /home/valuecom/public_html/bpstore/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->d in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php on line 23
+[08-Nov-2017 11:42:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getPickupStore() on null in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php:23
+Stack trace:
+#0 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(72): MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable->execute(Object(Magento\Framework\Event\Observer))
+#1 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(60): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable), Object(Magento\Framework\Event\Observer))
+#2 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker\InvokerDefault->dispatch(Array, Object(Magento\Framework\Event\Observer))
+#3 /home/valuecom/public_html/bpstore/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->d in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php on line 23
+[08-Nov-2017 11:43:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getPickupStore() on null in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php:23
+Stack trace:
+#0 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(72): MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable->execute(Object(Magento\Framework\Event\Observer))
+#1 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Invoker/InvokerDefault.php(60): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(MageClass\ClickAndCollect\Observer\ObserverforAddCustomVariable), Object(Magento\Framework\Event\Observer))
+#2 /home/valuecom/public_html/bpstore/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker\InvokerDefault->dispatch(Array, Object(Magento\Framework\Event\Observer))
+#3 /home/valuecom/public_html/bpstore/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->d in /home/valuecom/public_html/bpstore/app/code/MageClass/ClickAndCollect/Observer/ObserverforAddCustomVariable.php on line 23
+[09-Nov-2017 07:06:49 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/valuecom/public_html/bpstore/vendor/magento/module-theme/view/frontend/templates/html/header/logo.phtml on line 22
+[09-Nov-2017 07:06:51 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/valuecom/public_html/bpstore/vendor/magento/module-theme/view/frontend/templates/html/header/logo.phtml on line 22
+[09-Nov-2017 14:39:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getRealOrderId() on null in /home/valuecom/public_html/bpstore/vendor/magento/module-sales/Block/Order/PrintShipment.php:60
+Stack trace:
+#0 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Element/AbstractBlock.php(272): Magento\Sales\Block\Order\PrintShipment->_prepareLayout()
+#1 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Layout/Generator/Block.php(139): Magento\Framework\View\Element\AbstractBlock->setLayout(Object(Magento\Framework\View\Layout\Interceptor))
+#2 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Layout/GeneratorPool.php(80): Magento\Framework\View\Layout\Generator\Block->process(Object(Magento\Framework\View\Layout\Reader\Context), Object(Magento\Framework\View\Layout\Generator\Context))
+#3 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Layout.php(344): Magento\Framework\View\Layout\GeneratorPool->process(Object(Magento\Framework\View\Layout\Reader\Context), Object(Magento\Framewor in /home/valuecom/public_html/bpstore/vendor/magento/module-sales/Block/Order/PrintShipment.php on line 60
+[10-Nov-2017 05:38:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getRealOrderId() on null in /home/valuecom/public_html/bpstore/vendor/magento/module-sales/Block/Order/PrintShipment.php:60
+Stack trace:
+#0 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Element/AbstractBlock.php(272): Magento\Sales\Block\Order\PrintShipment->_prepareLayout()
+#1 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Layout/Generator/Block.php(139): Magento\Framework\View\Element\AbstractBlock->setLayout(Object(Magento\Framework\View\Layout\Interceptor))
+#2 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Layout/GeneratorPool.php(80): Magento\Framework\View\Layout\Generator\Block->process(Object(Magento\Framework\View\Layout\Reader\Context), Object(Magento\Framework\View\Layout\Generator\Context))
+#3 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Layout.php(344): Magento\Framework\View\Layout\GeneratorPool->process(Object(Magento\Framework\View\Layout\Reader\Context), Object(Magento\Framewor in /home/valuecom/public_html/bpstore/vendor/magento/module-sales/Block/Order/PrintShipment.php on line 60
+[10-Nov-2017 15:14:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getRealOrderId() on null in /home/valuecom/public_html/bpstore/vendor/magento/module-sales/Block/Order/PrintShipment.php:60
+Stack trace:
+#0 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Element/AbstractBlock.php(272): Magento\Sales\Block\Order\PrintShipment->_prepareLayout()
+#1 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Layout/Generator/Block.php(139): Magento\Framework\View\Element\AbstractBlock->setLayout(Object(Magento\Framework\View\Layout\Interceptor))
+#2 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Layout/GeneratorPool.php(80): Magento\Framework\View\Layout\Generator\Block->process(Object(Magento\Framework\View\Layout\Reader\Context), Object(Magento\Framework\View\Layout\Generator\Context))
+#3 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Layout.php(344): Magento\Framework\View\Layout\GeneratorPool->process(Object(Magento\Framework\View\Layout\Reader\Context), Object(Magento\Framewor in /home/valuecom/public_html/bpstore/vendor/magento/module-sales/Block/Order/PrintShipment.php on line 60
+[13-Nov-2017 10:06:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getRealOrderId() on null in /home/valuecom/public_html/bpstore/vendor/magento/module-sales/Block/Order/PrintShipment.php:60
+Stack trace:
+#0 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Element/AbstractBlock.php(272): Magento\Sales\Block\Order\PrintShipment->_prepareLayout()
+#1 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Layout/Generator/Block.php(139): Magento\Framework\View\Element\AbstractBlock->setLayout(Object(Magento\Framework\View\Layout\Interceptor))
+#2 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Layout/GeneratorPool.php(80): Magento\Framework\View\Layout\Generator\Block->process(Object(Magento\Framework\View\Layout\Reader\Context), Object(Magento\Framework\View\Layout\Generator\Context))
+#3 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Layout.php(344): Magento\Framework\View\Layout\GeneratorPool->process(Object(Magento\Framework\View\Layout\Reader\Context), Object(Magento\Framewor in /home/valuecom/public_html/bpstore/vendor/magento/module-sales/Block/Order/PrintShipment.php on line 60
+[13-Nov-2017 10:15:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getRealOrderId() on null in /home/valuecom/public_html/bpstore/vendor/magento/module-sales/Block/Order/PrintShipment.php:60
+Stack trace:
+#0 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Element/AbstractBlock.php(272): Magento\Sales\Block\Order\PrintShipment->_prepareLayout()
+#1 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Layout/Generator/Block.php(139): Magento\Framework\View\Element\AbstractBlock->setLayout(Object(Magento\Framework\View\Layout\Interceptor))
+#2 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Layout/GeneratorPool.php(80): Magento\Framework\View\Layout\Generator\Block->process(Object(Magento\Framework\View\Layout\Reader\Context), Object(Magento\Framework\View\Layout\Generator\Context))
+#3 /home/valuecom/public_html/bpstore/vendor/magento/framework/View/Layout.php(344): Magento\Framework\View\Layout\GeneratorPool->process(Object(Magento\Framework\View\Layout\Reader\Context), Object(Magento\Framewor in /home/valuecom/public_html/bpstore/vendor/magento/module-sales/Block/Order/PrintShipment.php on line 60
+[17-Nov-2017 06:10:15 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php70/root/usr/lib64/php/modules/imagick.so' - /opt/cpanel/ea-php70/root/usr/lib64/php/modules/imagick.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[17-Nov-2017 06:25:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php70/root/usr/lib64/php/modules/imagick.so' - /opt/cpanel/ea-php70/root/usr/lib64/php/modules/imagick.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[17-Nov-2017 06:26:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php70/root/usr/lib64/php/modules/imagick.so' - /opt/cpanel/ea-php70/root/usr/lib64/php/modules/imagick.so: cannot open shared object file: No such file or directory in Unknown on line 0
